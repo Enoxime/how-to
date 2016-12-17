@@ -29,16 +29,7 @@ cd ~/ffmpeg_sources
   ```
   3. AAC
   ```
-  cd ~/ffmpeg_sources
-  wget -O fdk-aac.zip https://github.com/mstorsjo/fdk-aac/zipball/master
-  unzip fdk-aac.zip
-  cd mstorsjo-fdk-aac*
-  autoreconf -fiv
-  ./configure --prefix="$HOME/ffmpeg_build" --disable-shared
-  make
-  make install
-  make distclean
-  cd ..
+  sudo apt-get install libfdk-aac-dev
   ```
   4. MP3
   ```
@@ -55,18 +46,6 @@ cd ~/ffmpeg_sources
   tar xjvf libvpx-1.6.0.tar.bz2
   cd libvpx-v1.6.0
   PATH="$HOME/bin:$PATH" ./configure --prefix="$HOME/ffmpeg_build" --disable-examples --disable-unit-tests
-  PATH="$HOME/bin:$PATH" make
-  make install
-  make clean
-  cd ..
-  ```
-  7. VisualOn AAC
-  ```
-  cd ~/ffmpeg_sources
-  wget http://webm.googlecode.com/files/libvpx-v1.3.0.tar.bz2
-  tar xjvf libvpx-v1.3.0.tar.bz2
-  cd libvpx-v1.3.0
-  PATH="$HOME/bin:$PATH" ./configure --prefix="$HOME/ffmpeg_build" --disable-examples
   PATH="$HOME/bin:$PATH" make
   make install
   make clean
