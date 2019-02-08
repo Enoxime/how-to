@@ -1,4 +1,3 @@
-# how-to
 ### Keybase proof
 
 I hereby claim:
@@ -20,13 +19,13 @@ To claim this, I am signing this object:
       "username": "enoxime"
     },
     "merkle_root": {
-      "ctime": 1549595499,
-      "hash": "09a3a598b0616e32773a6115ba32536a1950506a6f56ecfc0bf20e839ce96e726ecd4699a96fb414f40c5120118a02d8b720c5e2c01b5da5ba7073e9a991f5b9",
-      "hash_meta": "8e438c52fee13a9f45066ed18e92a172bf3d8fb5550eeb8b0749b82ca7c15cee",
-      "seqno": 4724712
+      "ctime": 1549596172,
+      "hash": "40604a791deec99bcbad3bf242f69ecd158594d433ce3e50219f2fb54dc85d8bb603649010f5608923ff624088a58f71cad0aca798293cd815095254959520b8",
+      "hash_meta": "bd166480cfb9d0d347eb2f7699615a335fb657af77ce259cbb0c1218a99dfc84",
+      "seqno": 4724738
     },
     "service": {
-      "entropy": "LOgkNVxzlx5sqy8L+Ofr6DlI",
+      "entropy": "4JfxQic8vATXz/rsHFUmoTrO",
       "name": "github",
       "username": "enoxime"
     },
@@ -37,14 +36,35 @@ To claim this, I am signing this object:
     "name": "keybase.io go client",
     "version": "3.0.0"
   },
-  "ctime": 1549595518,
+  "ctime": 1549596180,
   "expire_in": 504576000,
-  "prev": "b8112a1071b36f6b1030f1639c9c051aa88f07ea5b0c2b3c27a585cb1814e408",
-  "seqno": 10,
+  "prev": "2d63ae0cd25096e15af1002df5938a74fe3942e1f1a842660aec9a01869b58fe",
+  "seqno": 13,
   "tag": "signature"
 }
 ```
 
+with the key [ASDcR5unnyr2JknNlwppG5abW9Nu_96Qh5OvL4YjGL_UFwo](https://keybase.io/enoxime), yielding the signature:
+
+```
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3Eebp58q9iZJzZcKaRuWm1vTbv/ekIeTry+GIxi/1BcKp3BheWxvYWTESpcCDcQgLWOuDNJQluFa8QAt9ZOKdP45QuHxqEJmCuyaAYabWP7EIOpT2oo48Z6CNDWZFNydAR9uN6D015edaRZ+k1dglYeOAgHCo3NpZ8RAPaMA3Kly4lOwT2Uye6io2jRpAPR6781oBdxsL+azyXbZA0t+lsEBszydVK5Agf+ROwLjmS/Nd5teR3sWnqo9C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOk/2trEbn06Wjymcu7eu3RUhZlK7cr6PesSFy38NGMOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/enoxime
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/download).
+
+```bash
+# look me up
+keybase id enoxime
+```
 with the key [ASDcR5unnyr2JknNlwppG5abW9Nu_96Qh5OvL4YjGL_UFwo](https://keybase.io/enoxime), yielding the signature:
 
 ```
